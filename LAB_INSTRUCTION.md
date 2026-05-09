@@ -277,7 +277,7 @@ The lab ships ready-made application code, helper scripts, infrastructure templa
 
 7. **Create the ECR repository.** This is where the workflow will push the Lambda image:
    ```bash
-   aws ecr create-repository --repository-name sentiment-app-onnx --region us-east-1
+     aws ecr delete-repository --repository-name sentiment-app-onx --region us-east-1 --force
    ```
 
 8. **Verify.** Confirm everything is in place:
