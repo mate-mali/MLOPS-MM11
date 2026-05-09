@@ -27,7 +27,7 @@ jobs:
        run: uv sync --group integration
 
      - name: Ruff Checks 
-       run: uv run check
+       run: uv run ruff check
 
      - name: Pytests Tests
        run: uv run pytest tests/ -v
