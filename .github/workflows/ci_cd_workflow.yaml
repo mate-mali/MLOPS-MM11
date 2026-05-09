@@ -9,7 +9,7 @@ env:
 
 defaults:
  run:
-   working-directory: MLOPS-MM11
+   working-directory: 
 
 jobs:
  integration:
